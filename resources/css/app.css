@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+    .input-label{
+        @apply text-sm text-gray-400 mb-1;
+    }
+    .input-error{
+        @apply text-xs text-red-600 my-1;
+    }
+    .input-text{
+        @apply border border-gray-300 rounded-md;
+    }
+}
